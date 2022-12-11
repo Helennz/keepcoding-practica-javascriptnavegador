@@ -1,0 +1,50 @@
+body {
+    margin: 10px;
+    font-family: monospace, sans-serif;
+    background-color:  #e4fbfb;
+    word-spacing: 10px; 
+    text-align: center;
+    line-height: 25px;
+}
+
+.BeWise{
+    background-color: #aedddd;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    
+} 
+
+
+.TotalExpenses{
+    background-color: #e4fbfb;  
+    font-size: 30px;
+    font-family: monospace;
+    margin-top: 10px;
+}
+.Saving {
+    font-size: 15px;  
+
+}
+
+.container{
+    background-color: #dbefef;
+    padding-top: 5px;
+}
+
+.Expenses-List {
+    background-color: #dbefef;
+    font-size: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+    padding: 10px;
+    border-radius: 10px;
+  }

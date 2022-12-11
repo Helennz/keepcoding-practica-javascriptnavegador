@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="BeWise">
+    <h1> Be Wise Budget App </h1>
+    <p>It's time to start saving up money!</p>
+</div>
+
+<div class="TotalExpenses">
+    <h2 class="Saving">Here you can see the total amount you have saved! Well done!</h2>
+</div>
+
+<div class="container">
+    <h3>Let's keep record of your expenses</h3>
+    <section class="Expenses-List"></section>
+</div>
+
+<div class="NewTransaction">
+    <h3>Add New Transaction</h3>
+    <form id="createNewExpense" novalidate>
+        <div>Concept:</div>
+        <input id="concept" placeholder="Add New Concept..." type="text" />
+        <br><br>
+        <div> Quantity:</div>
+        <div> (negative - expense, positive - income)</div>
+        <input id="amount" type="number" placeholder="Introduce quantity..."/>
+        <br><br>
+        <button type="save" id="CreateNewExpense">Add transaction</button>
+    </form>
+
+<script src="./index.js"></script>
+
+</div>
+    
+</body>
+</html>
